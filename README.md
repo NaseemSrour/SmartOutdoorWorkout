@@ -1,4 +1,4 @@
-# SmartOutdoorWorkout
+# Smart Outdoor Workout
 Smart workout-monitoring system
 https://www.youtube.com/watch?v=S1ZTrXLvgZo
 
