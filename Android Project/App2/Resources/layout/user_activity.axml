@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <TextView
+      android:text="Hello"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+	android:layout_weight="0"
+		android:layout_marginTop="20dp"
+		android:id = "@+id/txtHello"
+	android:textAppearance="?android:attr/textAppearanceLarge"/>
+	
+	<GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"   
+        android:rowCount="3"
+		android:layout_weight="0"
+		android:gravity="center"
+        android:columnCount="2"
+			android:id = "@+id/gridLayout2"
+		android:layout_margin="10dp">
+     <TextView
+			android:layout_margin="10dp"
+            android:text="Time elapsed "
+            android:textSize="30dip" />
+    <TextView
+		android:layout_margin="10dp"
+		android:text="0:00:000"
+        android:gravity="center"
+		android:id = "@+id/txtTimer"
+		android:textSize="30dip"/>
+
+    <TextView
+			android:layout_margin="10dp"
+            android:text="Sets"
+            android:textSize="30dip" />
+    <TextView
+			android:layout_margin="10dp"
+            android:text="0"
+			android:id = "@+id/txtSets"
+            android:textSize="30dip" />
+	<TextView
+			android:layout_margin="10dp"
+            android:text="Repeats"
+            android:textSize="30dip" />
+    <TextView
+			android:layout_margin="10dp"
+            android:text="0"
+			android:id = "@+id/txtRepsSet"
+            android:textSize="30dip" />
+	<TextView
+			android:layout_margin="10dp"
+            android:text="Total Repeats"
+            android:textSize="30dip" />
+    <TextView
+			android:layout_margin="10dp"
+            android:text="0"
+			android:id = "@+id/txtTotalReps"
+            android:textSize="30dip" />
+
+</GridLayout>
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" 
+		android:layout_margin="30dp">
+	<Button
+      android:text="Start Training"
+      android:layout_width="165dp"
+      android:layout_height="wrap_content"
+	  style="?android:attr/buttonStyleSmall"
+      android:id="@+id/startTrainingBtn"
+	android:background="@android:color/holo_green_dark"
+      android:layout_gravity="center_horizontal|center"	  />
+
+	<Button
+      android:text="Stop Training"
+      android:id="@+id/stopTrainingBtn"
+      android:layout_width="165dp"
+	  style="?android:attr/buttonStyleSmall"
+      android:layout_height="wrap_content"
+	  android:background="@android:color/holo_red_dark"
+      android:layout_gravity="center_horizontal|center"	 
+	/>
+
+		<Button
+      android:text="History"
+      android:id="@+id/historyBtn"
+      android:layout_width="165dp"
+      android:layout_height="wrap_content"
+	  style="?android:attr/buttonStyleSmall"
+      android:layout_gravity="center_horizontal|center" />
+
+	<Button
+      android:text="Log out"
+      android:id="@+id/logoutBtn"
+      android:layout_width="165dp"
+      android:layout_height="wrap_content"
+	  style="?android:attr/buttonStyleSmall"
+      android:layout_gravity="center_horizontal|center" />
+
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

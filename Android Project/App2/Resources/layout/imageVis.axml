@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+	<LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+	<GridLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:rowCount="4"
+			android:gravity="center"
+			android:columnCount="2"
+			android:layout_margin="10dp">
+			<TextView
+				android:layout_margin="10dp"
+				android:gravity="center"
+				android:text="Time Elapsed "
+				android:textSize="20dip" />
+			<TextView
+				android:layout_margin="10dp"
+				android:text="0:00:000"
+				android:id = "@+id/timeTxt"
+				android:gravity="center"
+				android:textSize="20dip" 
+			      android:textColor="#6BC6ED"  
+/>
+			<TextView
+				android:layout_margin="10dp"
+				android:text="Sets"
+				android:gravity="center"
+				android:textSize="20dip" />
+			<TextView
+				android:layout_margin="10dp"
+				android:text="0"
+				android:id = "@+id/setsTxt"
+				      android:textColor="#6BC6ED"  
+				android:gravity="center"
+				android:textSize="20dip" />
+			<TextView
+				android:layout_margin="10dp"
+				android:gravity="center"
+				android:text="Total Repeats"
+				android:textSize="20dip" />
+			<TextView
+				android:layout_margin="10dp"
+				android:text="0"
+				android:gravity="center"
+				      android:textColor="#6BC6ED"  
+				android:id = "@+id/repsTxt"
+				android:textSize="20dip" />
+			<TextView
+				android:layout_margin="10dp"
+				android:gravity="center"
+				android:text="Calories Burned"
+				android:textSize="20dip" />
+			<TextView
+				android:layout_margin="10dp"
+				android:text="0"
+				android:gravity="center"
+				      android:textColor="#6BC6ED"  
+				android:id = "@+id/caloriesTxt"
+				android:textSize="20dip" />
+		</GridLayout>	
+    
+
+	<ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+						android:layout_margin = "10dp"
+        android:id="@+id/speedImg" />
+		<ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+			android:layout_margin = "10dp"
+        android:id="@+id/accImg" />
+		
+</LinearLayout>
+
+</ScrollView>
