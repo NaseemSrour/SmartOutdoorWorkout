@@ -1,4 +1,4 @@
-# Smart Outdoor Workout
+# Smart Outdoor Workout - IoT
 Smart workout-monitoring system
 https://www.youtube.com/watch?v=S1ZTrXLvgZo
 
